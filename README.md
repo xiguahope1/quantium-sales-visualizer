@@ -86,6 +86,10 @@ python -m http.server           # then open http://localhost:8000/docs/
 3. Under **Build and deployment**, choose **Deploy from a branch**, then branch `main` and folder `/docs`.
 4. The site goes live at `https://<your-username>.github.io/<repo-name>/` after a minute or two.
 
+## Limitations and next steps
+- This is a before/after comparison, so it can't separate the price effect from seasonality or other trends.
+- A next step would be to compare the same months year-on-year or fit a model with seasonal terms.
+  
 ## Tech stack
 
 | Area | Tools |
